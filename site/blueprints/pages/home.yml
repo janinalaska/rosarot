@@ -1,0 +1,86 @@
+# title: Home
+#
+# fields:
+#   selection:
+#     label: Auswahl
+#     type: select
+#     options:
+#       - Vernissage
+#       - Beiträge
+#   headline:
+#     label: Headline
+#     type: text
+#     when:
+#       selection:
+#         - Vernissage
+#   text:
+#     label: Text
+#     type: textarea
+#     when:
+#       selection:
+#         -Beiträge
+
+
+
+sections:
+  content:
+    type: fields
+    fields:
+      postType:
+        type: select
+        options:
+          - Beiträge
+          - Vernissage
+
+  title:
+    type: fields
+    fields:
+      tiny_title:
+        type: text
+
+  vernissage:
+    type: fields
+    fields:
+      date:
+        label: Datum
+        type: date
+      saveD:
+        label: Save The Date
+        type: text
+      info:
+        label: Info
+        type: textarea
+      cover:
+        label: Coverbild
+        type: files
+      caption:
+        label: Bildcredits
+        type: text
+
+    when:
+      postType: Vernissage
+
+
+  texte:
+    type: pages
+    # status: listed
+    templates: text_beitrag
+    when:
+      postType: Beiträge
+
+  bilder:
+    type: pages
+    # status: listed
+    templates: bild_beitrag
+    when:
+      postType: Beiträge
+
+  # drafts:
+  #   headline: Drafts
+  #   type: pages
+  #   status: unlisted
+  #   templates:
+  #     - text_beitrag
+  #     - bild_beitrag
+  #   when:
+  #     postType: Beiträge

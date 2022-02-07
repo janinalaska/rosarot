@@ -1,0 +1,12 @@
+title: Call for Paper
+icon: list-bullet
+fields:
+  thema:
+    label: Thema
+    type: text
+  keywords:
+    label: Keywords
+    type: list
+  process:
+    label: Vorgehen
+    type: textarea

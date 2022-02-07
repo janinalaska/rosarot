@@ -1,0 +1,10 @@
+fields:
+  tiny_title:
+    label: Bildunterschrift
+    type: text
+  bild_beitrag:
+    label: Bild Beitrag
+    type: files
+  author:
+    label: "Autorin*"
+    type: textarea

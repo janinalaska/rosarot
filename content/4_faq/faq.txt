@@ -1,0 +1,54 @@
+Title: FAQ
+
+----
+
+Text:
+
+### + Wie ist das Vorgehen, wenn ich etwas für die RosaRot schreiben möchte?
+
+Du findest den detaillierten Prozess (link: call text: hier)
+
+###  + Gibt es Einschränkungen betreffend Format, wenn ich etwas für die RosaRot schreiben will?
+
+Es gibt keine formalen Einschränkunge bei der Textverfassung?. Was du wissen solltest: Die Masse der RosaRot sind AAAxBBB, das heisst etwas schmaler als A4.
+
+### + Gibt es Einschränkungen bzgl. der Zeichenanzahl bei de Textverfassung?
+
+Für Texte ist die Maximale Anzahl Zeichen XXX, also ca. 4 Seiten.
+
+###  + Ich habe eine generelle Rückmeldung oder Kritik an der RosaRot oder zu einem spezifischen Beitrag. Wie kann ich das kommunizieren?
+
+Kontaktiere uns über rosarotinfo@gmail.com, instagram oder facebook. Kommunizieren uns auch, welchen Umgang du dir mit deiner Rückmeldung wünschst. Je nach Kapazitäten werden wir versuchen auf diese Bedürfnisse einzugehen. Es kann sein, dass wir dir nicht sofort antworten können, worüber wir uns aber bemühen.
+
+ ### + Ich will ein Geschenkabo lösen. Wie kann ich das tun?
+
+Schreibe uns eine Mail an rosarotinfo@gmail.com. Nenne uns deine Rechnungsadresse, die Postadresse der beschenkten Person, sowie  eine Mailadresse der beschenkten Person, sodass wir notfalls Kontakt aufnehmen können. 
+
+### + Ich will die RosaRot mit einer Spende finanziell unterstützen. Wie kann ich dies tun?
+
+Vielen Dank, dass du die RosaRot finanziell unterstützen möchtest. Du kannst das Geld gerne mit dem Betreff „Spende“ an das folgende Bankkonto überweisen:
+Vereinskonto
+RosaRot
+CH70 8080 8006 1486 7374 1
+IID (BC-Nr.):80808
+SWIFT-BIC:RAIFCH22
+
+### + Ich will Teil der RosaRot Redaktion werden. Wie kann ich bei euch mitmachen?
+
+Schön, dass du mitmachen willst! Schreibe uns eine Mail an rosarotinfo@gmail.com. Verfasse in wenigen Sätzen wer du bist. Wir werden dich bei Gelegenheit an eine Sitzung einladen, damit wir uns kennenlernen können.
+
+### + Ich würde gerne eine spezifische Aufgabe für die RosaRot übernehmen, ohne mich ganz als Redaktionsmitglied verpflichten zu müssen. Ist dies möglich?
+
+Ja, wir sind immer froh um Unterstützung! Bei Lektorats- und Korrektoratsarbeiten sind wir immer froh um Menschen, die helfen. Es stehen aber auch immer diverse andere Aufgaben an – bspw. Heftversand, Layoutaufgaben, Social Media, Betreuungsaufgaben etc. Nimm am besten per Mail Kontakt mit uns auf, sodass wir uns überlegen können, was am sinnvollsten ist!
+
+### + Ich habe eine Frage zu meinem Abo. Was kann ich tun?
+
+Schreibe uns dein Anliegen am besten per Mail an rosarotinfo@gmail.com. Wir werden uns so schnell wie möglich um eine Rückmeldung bei dir bemühen!
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"Frage 1"},"id":"3b6132a1-f083-4c0b-8a77-6427cc227959","isHidden":false,"type":"heading"},{"content":{"text":"<p>Antwort 1<\/p>"},"id":"7ce11f95-b2bd-4b31-916b-ac6134ed282c","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Frage 2"},"id":"72a70211-d8cf-44a9-adca-42921082d1a9","isHidden":false,"type":"heading"},{"content":{"text":"<p>Antwort 2<\/p>"},"id":"101cb163-3318-427b-91e4-0fb66e6f69ee","isHidden":false,"type":"text"}]
+
+----
+
+Tiny-title: Frequently Asked Questions

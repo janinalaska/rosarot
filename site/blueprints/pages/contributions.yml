@@ -1,0 +1,8 @@
+sections:
+  texte:
+    type: pages
+    templates: text_beitrag
+
+  bilder:
+    type: pages
+    templates: bild_beitrag

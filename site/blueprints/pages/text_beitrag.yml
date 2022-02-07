@@ -1,0 +1,13 @@
+title: Text Beitrag
+fields:
+  tiny_title:
+    label: Kleiner Titel
+    type: text
+  info:
+    label: Textinfo
+    type: textarea
+  text:
+    type: textarea
+  author:
+    label: "Autorin*"
+    type: textarea
