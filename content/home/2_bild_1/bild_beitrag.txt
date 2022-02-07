@@ -1,0 +1,23 @@
+Title: Beitrag Nr. 1
+
+----
+
+Tiny-title: Zwischenraum als Körpergefühl von M.R.
+
+----
+
+Bild-beitrag:
+
+- heft_bilder_1.jpg
+- heft_bilder_2.jpg
+- heft_bilder_3.jpg
+
+----
+
+Author:
+
+M.R. - Maeva Rubli, 1996 in Delémont geboren, arbeitet als Illustratorin, Comic- und Bilderbuchautorin
+und Kunstvermittlerin in Basel. Sie betrachtet die visuelle Narration als kraftvolle
+Werkzeuge, um unsere Welt zu beobachten und zu hinterfragen, sowie als einen farbenfrohen
+Weg, um Themen mit Sensibilität zu vermitteln.
+Im September 2021 erscheint ihr erstes Buch "bei mir, bei dir" bei der Edition Moderne in Zürich.
