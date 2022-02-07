@@ -11,6 +11,7 @@
 <?= $content->info()->text() ?>
 <a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
 <?php else : ?>
+  
 <?=$content->text()->markdown()->excerpt(450, true, '↗');?>
 <a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
 <?php endif; ?>

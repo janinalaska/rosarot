@@ -33,13 +33,13 @@ var s = 6;
 function changeColor() {
   var randomColor = Math.floor(Math.random() * bgColor.length);
   console.log(randomColor);
-  // svgElement.style.fill = color[randomColor];
-  // r.style.setProperty('--bgColor', bgColor[randomColor]);
-  // r.style.setProperty('--color', color[randomColor]);
+  svgElement.style.fill = color[randomColor];
+  r.style.setProperty('--bgColor', bgColor[randomColor]);
+  r.style.setProperty('--color', color[randomColor]);
 
-  svgElement.style.fill = color[s];
-  r.style.setProperty('--bgColor', bgColor[s]);
-  r.style.setProperty('--color', color[s]);
+  // svgElement.style.fill = color[s];
+  // r.style.setProperty('--bgColor', bgColor[s]);
+  // r.style.setProperty('--color', color[s]);
 };
 
 changeColor(); // do this in window.onload !!  window.onload(changeColor)
