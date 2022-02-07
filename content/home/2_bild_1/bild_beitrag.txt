@@ -9,8 +9,8 @@ Tiny-title: Zwischenraum als Körpergefühl von M.R.
 Bild-beitrag:
 
 - heft_bilder_1.jpg
-- heft_bilder_2.jpg
 - heft_bilder_3.jpg
+- heft_bilder_2.jpg
 
 ----
 
