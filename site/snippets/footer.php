@@ -1,6 +1,7 @@
 <footer class="footer">
     <a class="logo" id="svglogo" href="<?= $site->url() ?>">
-      <?= asset('assets/icons/logo.svg')->read() ?>
+      <!--  -->
+      <img src="<?=url('assets/icons/logo.svg')?>" alt="">
     </a>
 </footer>
 
