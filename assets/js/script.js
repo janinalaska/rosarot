@@ -121,3 +121,22 @@ if (gal !== null) {
 //   r.style.setProperty('--marg_bottom', footerheight);
 //   console.log(headerheight);
 // }
+
+
+
+// ------------- responsive nav ---------------
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  var c = document.getElementById("container");
+  var a = document.getElementsByClassName("mobile_nav")[0];
+  if (x.className === "topnav") {
+    x.className += " responsive";
+    c.className += " responsive";
+    a.innerHTML="CLOSE";
+  } else {
+    x.className = "topnav";
+    c.className = "container";
+    a.innerHTML="MENU";
+  }
+}

@@ -11,18 +11,22 @@
   <body>
 
     <header class="header">
-      <div class="container">
+      <div class="container" id="container">
         <div class="tiny_title">
           <?= $page->tiny_title() ?>
         </div>
 
-        <nav class="menu">
-          <ul>
-            <li><a href="https://www.e-periodica.ch/digbib/volumes?UID=ros-002" target="blank"><?= page('archiv')->title() ?></a></li>
-            <?php foreach ($site->children()->listed()->not('archiv') as $item): ?>
+        <a href="javascript:void(0);" class="mobile_nav" onclick="myFunction()">MENU</a>
+
+        <nav  class="topnav" id="myTopnav">
+          <ul >
+            <li><a href="<?= $site->url() ?>">Home</a></li>
+            <?php foreach ($site->children()->listed() as $item): ?>
               <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
             <?php endforeach ?>
+            <li><a href="https://www.e-periodica.ch/digbib/volumes?UID=ros-002" target="blank">Archiv</a></li>
           </ul>
+
         </nav>
       </div>
 
