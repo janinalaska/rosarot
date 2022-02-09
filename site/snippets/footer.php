@@ -1,8 +1,15 @@
 <footer class="footer">
     <a class="logo" id="svglogo" href="<?= $site->url() ?>">
-      <!--  -->
-      <img src="<?=url('assets/icons/logo.svg')?>" alt="">
+
+
+<?= svg('assets/icons/logo.svg') ?>
     </a>
+
+
+
+    <!-- <svg class="logo">
+    </svg> -->
+
 </footer>
 
 

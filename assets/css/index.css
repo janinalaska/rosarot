@@ -191,9 +191,9 @@ a:hover {
   font-size: 65px;
 } */
 .footer img {
-  padding-left: var(--out_marg);
-  padding-bottom: var(--out_marg);
-  width: 20vh;
+  /* padding-left: var(--out_marg);
+  padding-bottom: var(--out_marg); */
+  /* width: 20vh; */
 }
 
 .logo {
