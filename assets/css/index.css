@@ -199,7 +199,7 @@ a:hover {
 .logo {
   padding-left: var(--out_marg);
   padding-bottom: var(--out_marg);
-  width: 35vh;
+  /* width: 35vh; */
 }
 
 ul {
@@ -288,6 +288,12 @@ button {
   font-size: var(--f1);
   font-style: italic;
   width: 35em;
+}
+
+
+svg {
+  height: auto;
+  width: 35vw;
 }
 
 @media (max-width: 900px) {
