@@ -178,6 +178,8 @@ a:hover {
   bottom: 0;
   width: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
+                    -webkit-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
+                    -moz-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
   color: white;
   height: 15vh;
 }
