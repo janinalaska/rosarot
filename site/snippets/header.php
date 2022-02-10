@@ -3,13 +3,11 @@
   <head>
      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
-    <link rel="stylesheet" href="assets/css/reset.css">
     <?= css('assets/css/reset.css') ?>
-    <link rel="stylesheet" href="assets/css/index.css">
     <?= css('assets/css/index.css') ?>
     <?= css('@auto') ?>
-     <script src="assets/js/script.js"></script> 
-    <?= js('assets/js/script.js') ?>
+    <?= css('assets/css/mobile.css') ?>
+      <?= js('assets/js/script.js') ?>
   </head>
   <body>
 
