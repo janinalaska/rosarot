@@ -33,3 +33,7 @@ padding-bottom: 31px; */
   width: 35em;
   padding: 0;
 }
+
+.mobile_gallery {
+  display: none;
+}

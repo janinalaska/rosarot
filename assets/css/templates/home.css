@@ -25,6 +25,11 @@ main.home {
   padding-bottom: 20vh;
 }
 
+.m_title {
+  text-transform: uppercase;
+  display: none;
+}
+
 .vernissage .text_left {
   /* background: pink; */
   padding-bottom: 0;

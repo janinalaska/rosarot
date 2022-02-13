@@ -7,12 +7,12 @@
     <div class="text_left">
       <?php foreach ($page->children()->listed()->filterBy('template', 'text_beitrag') as $content): ?>
         <div class="excerpt">
+          <h3 class="m_title"><?= $content->title()?></h3>
           <?php if($content->info()->isNotEmpty()) : ?>
-<?= $content->info()->text() ?>
+<p><?= $content->info()->text() ?></p>
 <a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
 <?php else : ?>
-
-<?=$content->text()->markdown()->excerpt(850, true, '...');?>
+<p><?=$content->text()->markdown()->excerpt(850, true, '...');?></p>
 <a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
 <?php endif; ?>
 

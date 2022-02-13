@@ -5,6 +5,7 @@
   --out_marg: 15px;
   --padTop: 20vh;
   --bgColor: #1e90ff;
+  --bgColA: #1e90ff;
   --color: #ffffff;
   --spacing: 0.03em;
   --f1: 12px;
@@ -93,7 +94,7 @@ p a {
   height: auto;
   /* flex-basis: auto; */
   padding-top: var(--out_marg);
-  padding-top: 15px;
+  padding-bottom: var(--out_marg);
   /* background: pink; */
   /* padding: var(--out_marg); */
   /* text-transform: uppercase; */
@@ -172,6 +173,7 @@ a:hover {
 }
 
 .footer {
+  /* height: 15vh; */
   /* background: red; */
   position: fixed;
   /* display: flex; */
@@ -179,12 +181,13 @@ a:hover {
   left: 0px;
   bottom: 0px;
   width: 100%;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
-                    -webkit-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
-                    -moz-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
-  background-image: none;
-  color: white;
+  background-image: linear-gradient(var(--bgColA), var(--bgColor) 75%);
+  /* linear-gradient(rgba(255, 255, 255, 0.001), var(--bgColor) 75%); */
+                    /* -webkit-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%);
+                    -moz-linear-gradient(rgba(255, 255, 255, 0), var(--bgColor) 75%); */
+  /* background-image: none; */
   /* height: 15vh; */
+  /* padding-top: 30px; */
 }
 
 .footer.ohne {
@@ -253,6 +256,47 @@ p {
 
 
 svg {
-  height: auto;
-  width: 35vw;
+  height: 85px;
+  width: auto;
+}
+
+.honeypot {
+    position: absolute;
+    left: -9999px;
+}
+
+input {
+  border: 1.5px solid var(--color);
+  background: var(--bgColor);
+  color: var(--color);
+}
+
+.ckb input[type="radio"] {
+  background: var(--bgColor);
+  /* clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; */
+}
+
+
+textarea {
+  border: 1.5px solid var(--color);
+  background: var(--bgColor);
+  color: var(--color);
+  resize: none;
+  height: 8em;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: var(--f1);
+  font-style: italic;
 }

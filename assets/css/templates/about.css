@@ -1,3 +1,16 @@
 h3 {
   padding-top: 2.5em;
 }
+
+.sponsors {
+  display: flex;
+  flex-direction: row-row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+
+.sponsors img {
+  width: 48%;
+  height: auto;
+}

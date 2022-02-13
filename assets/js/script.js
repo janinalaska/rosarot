@@ -1,12 +1,17 @@
 var bgColor = new Array();
 bgColor[0] = "#AEF27E";
 bgColor[1] = "#C18DD9";
-bgColor[2] = "#5C9060";
-bgColor[3] = "#F2F549";
+bgColor[2] = "#5C9F61";
+bgColor[3] = "#F8FB60";
 bgColor[4] = "#FFA176";
 bgColor[5] = "#FFCBE9";
 bgColor[6] = "#ADEFD1";
 bgColor[7] = "#FFD1E0";
+bgColor[8] = "#AEE2ED";
+bgColor[9] = "#F8EC83";
+bgColor[10] = "#1C6E8A";
+bgColor[11] = "#F3866F";
+bgColor[12] = "#D8BAFF";
 
 
 
@@ -14,12 +19,18 @@ bgColor[7] = "#FFD1E0";
 var color = new Array();
 color[0] = "#024FBA";
 color[1] = "#42EDB7";
-color[2] = "#FFB6E1";
-color[3] = "#987DAB";
+color[2] = "#F8B1DA";
+color[3] = "#A77CC6";
 color[4] = "#9F3402";
 color[5] = "#FF0000";
 color[6] = "#146F12";
 color[7] = "#34939F";
+color[8] = "#2D5E68";
+color[9] = "#E56E00";
+color[10] = "#F2F549";
+color[11] = "#FEFCDB";
+color[12] = "#5E1CB2";
+
 
 var r = document.querySelector(':root');
 var svgElement = document.getElementById('svglogo');
@@ -32,13 +43,15 @@ var s = 6;
 
 function changeColor() {
   var randomColor = Math.floor(Math.random() * bgColor.length);
-  console.log(randomColor);
+  // console.log(randomColor);
   svgElement.style.fill = color[randomColor];
   r.style.setProperty('--bgColor', bgColor[randomColor]);
+  r.style.setProperty('--bgColA', bgColor[randomColor]+'01');
   r.style.setProperty('--color', color[randomColor]);
 
   // svgElement.style.fill = color[s];
   // r.style.setProperty('--bgColor', bgColor[s]);
+  // r.style.setProperty('--bgColA', bgColor[s]+'01');
   // r.style.setProperty('--color', color[s]);
 };
 
@@ -52,7 +65,7 @@ var cir = document.getElementById('cir');
 
 function clickChange() {
   var randomColor = Math.floor(Math.random() * bgColor.length);
-  console.log(randomColor);
+  // console.log(randomColor);
   svgElement.style.fill = color[randomColor];
   r.style.setProperty('--bgColor', bgColor[randomColor]);
   r.style.setProperty('--color', color[randomColor]);
@@ -61,29 +74,35 @@ function clickChange() {
 
 
 // ---------------get height------------------
-function test() {
-  var t = document.getElementById('test');
-  t.style.color = "#FF0000";
-  console.log('success');
-}
-
-
 var header = document.querySelector('.header');
 var footer = document.querySelector('.footer');
 var headerheight = header.offsetHeight;
 var footerheight = footer.offsetHeight;
 var gal = document.querySelector('.gallery_container');
 var i = document.querySelector('.img_link');
+var m = document.querySelector('.mobile_gallery');
+
+var width = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
 
 // gal.style.paddingTop = headerheight+"px";
 // gal.style.paddingBottom = footerheight+"px";
 // i.style.paddingTop = headerheight + "px";
 
 if (gal !== null) {
-  gal.style.paddingTop = headerheight+20+"px";
-  gal.style.paddingBottom = footerheight+20+"px";
+  gal.style.paddingTop = headerheight+0+"px";
+  gal.style.paddingBottom = footerheight+15+"px";
+  console.log(headerheight);
 } else if (i !== null) {
-  i.style.paddingTop = headerheight+15+ "px";
+  i.style.paddingTop = headerheight+0+"px";
+  console.log(headerheight);
+}
+
+if (width < 900) {
+  m.style.marginTop = headerheight+"px";
+  console.log(headerheight);
+  console.log("small");
 }
 
 
@@ -140,3 +159,8 @@ function myFunction() {
     a.innerHTML="MENU";
   }
 }
+
+
+// --------- mobile excerpt
+
+var e = document.querySelector('excerpt');
