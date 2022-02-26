@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
     <main class="main">
+        <h3><?= $page->title()->html() ?></h3>
 
         <?php if($success): ?>
         <div class="alert success">
@@ -15,17 +16,15 @@
                 <input type="url" id="website" name="website" tabindex="-1">
             </div>
 
-<div class="info">
-  <p>Teile uns doch bitte zuerst Deine bisherige Adresse mit:</p>
-</div>
+
+            <div class="field">
+              <label for="issue">Bitte teile uns Nummer und Titel der Ausgabe mit, die Du gerne nachbestellen möchtest.</label>
+              <input type="text" name="issue" value="">
+            </div>
+
+
 <!-- adresse -->
 <?php snippet('contact_info') ?>
-
-
-<div class="info">
-  <p>Und jetzt Deine neue Adresse:</p>
-</div>
-<?php snippet('new_info') ?>
 
 
 
@@ -34,7 +33,7 @@
     <label for="comment">
         Bemerkung
     </label>
-    <textarea id="comment" name="comment">
+    <textarea id="comment" name="comment" required>
         <?= esc($data['comment'] ?? '') ?>
     </textarea>
 </div>

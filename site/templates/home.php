@@ -68,6 +68,8 @@
 
 <?php snippet('footer_ohne') ?>
 
+
+
 <!-- <div class="image_right">
  <a href="#">
   <?php $img = $page->cover()->toFile(); ?>

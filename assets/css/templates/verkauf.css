@@ -1,0 +1,21 @@
+.shop h3 {
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.shop {
+  line-height: normal;
+  padding-top: 1em;
+}
+
+.shop.first {
+  padding-top: 0;
+}
+
+.bern {
+  padding-top: 3em;
+}
+
+.basel {
+  padding-top: 3em;
+}

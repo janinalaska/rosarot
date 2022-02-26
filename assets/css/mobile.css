@@ -16,6 +16,10 @@
     --f3: 43px;
   }
 
+  #container {
+    background: var(--bgColor);
+  }
+
   .noimg {
     width: auto;
   }
@@ -157,6 +161,17 @@
 
   .header {
     padding: 0;
+  }
+
+  .footer.ohne {
+    position: fixed;
+    /* display: flex; */
+    align-items: flex-end;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(var(--bgColA), var(--bgColor) 75%);
+
   }
 
 }

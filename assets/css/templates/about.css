@@ -14,3 +14,15 @@ h3 {
   width: 48%;
   height: auto;
 }
+
+.social svg {
+  height: 2em;
+}
+
+.mail {
+  padding: 0.75em 0 1.5em 0;
+}
+
+#insta {
+  padding-right: 15px;
+}

@@ -12,6 +12,7 @@ return function($kirby, $pages, $page) {
         }
 
         $data = [
+            'issue' => get('issue'),
             'name'  => get('name'),
             'firstname' => get('firstname'),
             'email' => get('email'),
@@ -19,10 +20,6 @@ return function($kirby, $pages, $page) {
             'nr'    => get('nr'),
             'plz'   => get('plz'),
             'city'  => get('city'),
-            'nstreet' => get('nstreet'),
-            'nnr'   => get('nnr'),
-            'nplz'  => get('nplz'),
-            'ncity' => get('ncity'),
             'comment' => get('comment'),
         ];
 
@@ -46,12 +43,13 @@ return function($kirby, $pages, $page) {
         } else {
             try {
                 $kirby->email([
-                    'template' => 'kontakt.html',
+                    'template' => 'heft_bestellung.html',
                     'from'     => $data['email'],
                     'replyTo'  => $data['email'],
                     'to'       => 'janina.tanner@posteo.ch',
-                    'subject'  => esc($data['firstname']) . ' hat eine neue Adresse',
+                    'subject'  => esc($data['firstname']) . ' möchte eine alte RosaRot Ausgabe bestellen',
                     'data'     => [
+                      'issue'  => esc($data['issue']),
                       'lname'  => esc($data['name']),
                       'fname'  => esc($data['firstname']),
                       'street'  => esc($data['street']),
@@ -59,10 +57,6 @@ return function($kirby, $pages, $page) {
                       'plz'  => esc($data['plz']),
                       'city'  => esc($data['city']),
                       'email' => $data['email'],
-                      'nstreet'  => esc($data['nstreet']),
-                      'nnr'  => esc($data['nnr']),
-                      'nplz'  => esc($data['nplz']),
-                      'ncity'  => esc($data['ncity']),
                       'comment'  => esc($data['comment']),
                     ]
                 ]);

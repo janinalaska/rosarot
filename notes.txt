@@ -2,3 +2,20 @@ mobile:
   startseite
   - textbeitrag titel
   - footer mit gradient
+
+
+
+// - einzelheftbestellung
+- adressänderung
+- vernissage startseite
+- zusätzliche breakpoints
+- verkaufsstellen
+- contact form design
+- archiv seite
+- schriftart kommentarfeld
+// - kontakt + social media auf "über uns"
+
+
+
+kommentare:
+- hab dropdown bei heftbestellung weggelassen, da sonst bei jeder ausgabe daran gedacht werden muss dies hier nachzutragen

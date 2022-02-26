@@ -33,7 +33,7 @@ color[12] = "#5E1CB2";
 
 
 var r = document.querySelector(':root');
-var svgElement = document.getElementById('svglogo');
+// var svgElement = document.getElementById('svglogo');
 var s = 6;
 
 // function myFunction_set() {
@@ -44,15 +44,15 @@ var s = 6;
 function changeColor() {
   var randomColor = Math.floor(Math.random() * bgColor.length);
   // console.log(randomColor);
-  svgElement.style.fill = color[randomColor];
-  r.style.setProperty('--bgColor', bgColor[randomColor]);
-  r.style.setProperty('--bgColA', bgColor[randomColor]+'01');
-  r.style.setProperty('--color', color[randomColor]);
+  // svgElement.style.fill = color[randomColor];
+  // r.style.setProperty('--bgColor', bgColor[randomColor]);
+  // r.style.setProperty('--bgColA', bgColor[randomColor]+'01');
+  // r.style.setProperty('--color', color[randomColor]);
 
   // svgElement.style.fill = color[s];
-  // r.style.setProperty('--bgColor', bgColor[s]);
-  // r.style.setProperty('--bgColA', bgColor[s]+'01');
-  // r.style.setProperty('--color', color[s]);
+  r.style.setProperty('--bgColor', bgColor[s]);
+  r.style.setProperty('--bgColA', bgColor[s]+'01');
+  r.style.setProperty('--color', color[s]);
 };
 
 changeColor(); // do this in window.onload !!  window.onload(changeColor)
@@ -66,7 +66,7 @@ var cir = document.getElementById('cir');
 function clickChange() {
   var randomColor = Math.floor(Math.random() * bgColor.length);
   // console.log(randomColor);
-  svgElement.style.fill = color[randomColor];
+  // svgElement.style.fill = color[randomColor];
   r.style.setProperty('--bgColor', bgColor[randomColor]);
   r.style.setProperty('--color', color[randomColor]);
 }
@@ -158,6 +158,23 @@ function myFunction() {
     c.className = "container";
     a.innerHTML="MENU";
   }
+}
+
+
+function check() {
+  var c = document.getElementById("gift_check").checked;
+  var g = document.getElementById("gift_address");
+
+  if (c) {
+    // document.body.style.background = "#ffffff";
+    g.style.display = "block";
+    g.style.visibility = "visible";
+  } else if (!c){
+    // document.body.style.background = "#BACF6B";
+    g.style.display = "none";
+    g.style.visibility = "hidden";
+  }
+
 }
 
 
