@@ -6,3 +6,8 @@ sections:
   bilder:
     type: pages
     templates: bild_beitrag
+
+options:
+  read:
+    admin: true
+    editor: false

@@ -1,3 +1,7 @@
+<div class="info">
+  <p>Kontaktdaten der beschenkten Person:</p>
+</div>
+
   <div class="two">
     <div class="field left">
       <label for="gfirstname">

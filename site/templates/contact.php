@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-    <main class="main">
+    <main class="noimg">
 
         <?php if($success): ?>
         <div class="alert success">
@@ -22,26 +22,13 @@
 <?php snippet('contact_info') ?>
 
 
-<div class="info">
+<div class="info new">
   <p>Und jetzt Deine neue Adresse:</p>
 </div>
+
 <?php snippet('new_info') ?>
 
-
-
-<!-- kommentarfeld -->
-<div class="field">
-    <label for="comment">
-        Bemerkung
-    </label>
-    <textarea id="comment" name="comment">
-        <?= esc($data['comment'] ?? '') ?>
-    </textarea>
-</div>
-
-
-<!-- submit button -->
-            <input type="submit" name="submit" value="Abschicken">
+<?php snippet('submit') ?>
 
         </form>
         <?php endif ?>

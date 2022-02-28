@@ -149,9 +149,11 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   var c = document.getElementById("container");
   var a = document.getElementsByClassName("mobile_nav")[0];
+  var t = document.getElementById("tiny_title");
   if (x.className === "topnav") {
     x.className += " responsive";
     c.className += " responsive";
+    // t.style.display = "none";
     a.innerHTML="CLOSE";
   } else {
     x.className = "topnav";

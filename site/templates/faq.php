@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
     <main class="noimg faq">
-      <?= $page->text()->markdown()->kt() ?>
+      <?= $page->text()->kt() ?>
 
         <!-- <button type="button" class="question">Question One</button>
         <div class="answer">

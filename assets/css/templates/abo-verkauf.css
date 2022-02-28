@@ -1,0 +1,29 @@
+.getit ul {
+  list-style-type: none;
+  width: auto;
+}
+
+.getit li {
+  margin: 0;
+  text-indent: 0;
+}
+
+.getit h3 {
+  text-transform: uppercase;
+}
+
+.getit .info {
+  font-size: var(--f1);
+  font-weight: 400;
+  padding-left: var(--out_marg);
+  line-height: normal;
+  width: 25em;
+}
+
+li {
+  padding-top: 2em;
+}
+
+li:first-child {
+  padding: 0;
+}

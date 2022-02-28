@@ -19,7 +19,9 @@
           <?= asset('assets/icons/fb.svg')->read() ?>
         </a>
       </div>
-        <?= $page->text()->markdown()->kt() ?>
+
+
+        <?= $page->text()->kt() ?>
 
         <div class="sponsors">
           <?php foreach ($page->images() as $image): ?>

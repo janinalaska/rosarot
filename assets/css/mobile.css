@@ -30,6 +30,7 @@
 
   .tiny_title {
     display: none;
+    margin-left: 0;
   }
 
   nav ul {
@@ -139,7 +140,7 @@
   }
 
   .author {
-    width: 100%;
+    /* width: 100%; */
   }
 
 

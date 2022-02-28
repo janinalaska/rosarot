@@ -1,0 +1,8 @@
+fields:
+  issues:
+    type: blocks
+
+options:
+  read:
+    admin: true
+    editor: false

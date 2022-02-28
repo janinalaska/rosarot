@@ -26,21 +26,7 @@
 <!-- adresse -->
 <?php snippet('contact_info') ?>
 
-
-
-<!-- kommentarfeld -->
-<div class="field">
-    <label for="comment">
-        Bemerkung
-    </label>
-    <textarea id="comment" name="comment" required>
-        <?= esc($data['comment'] ?? '') ?>
-    </textarea>
-</div>
-
-
-<!-- submit button -->
-            <input type="submit" name="submit" value="Abschicken">
+<?php snippet('submit') ?>
 
         </form>
         <?php endif ?>

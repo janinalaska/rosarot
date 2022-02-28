@@ -104,6 +104,12 @@ p a {
   color: var(--bgColor); */
 }
 
+.procedure a {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: var(--spacing);
+}
+
 .header {
   position: fixed;
   /* background: var(--bgColor); */
@@ -163,7 +169,7 @@ figcaption {
 }
 
 a:hover {
-  font-style: normal;
+  /* font-style: normal; */
 }
 
 .topnav {
@@ -362,6 +368,61 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.submit {
+  margin-top: 0.75em;
+}
+
+.gift {
+  padding: 0.75em 0;
+}
+
+input {
+  padding: 0.4em;
+}
+
+.field {
+  padding: 0.25em 0;
+}
+
+.new {
+  margin-top: 15vh;
+}
+
+#gift_address {
+  margin-top: 15vh;
+}
+
+.ckb {
+  margin-bottom: 1em;
+}
+
+.ckb label {
+  cursor: pointer;
+}
+
+.gift label {
+  cursor: pointer;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+input[type=radio] {
+  cursor: pointer;
+}
+
+.mail a {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: var(--spacing);
+
 }
 
 /* input {

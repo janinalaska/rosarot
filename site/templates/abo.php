@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
-    <main class="main">
-        <h3><?= $page->title()->html() ?></h3>
+    <main class="noimg">
 
         <?php if($success): ?>
         <div class="alert success">
@@ -43,19 +42,7 @@
   <?php snippet('gift_info') ?>
 </div>
 
-<!-- kommentarfeld -->
-<div class="field">
-    <label for="comment">
-        Bemerkung
-    </label>
-    <textarea id="comment" name="comment">
-        <?= esc($data['text'] ?? '') ?>
-    </textarea>
-</div>
-
-
-<!-- submit button -->
-            <input type="submit" name="submit" value="Abschicken">
+<?php snippet('submit') ?>
 
         </form>
         <?php endif ?>

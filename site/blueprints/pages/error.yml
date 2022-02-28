@@ -1,0 +1,4 @@
+options:
+  read:
+    admin: true
+    editor: false

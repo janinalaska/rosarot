@@ -10,7 +10,7 @@
 </div>
 
 <div class="procedure">
-<?= $page->process()->markdown()->kti() ?>
+<?= $page->process()->kti() ?>
 </div>
 
 

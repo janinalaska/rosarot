@@ -13,15 +13,16 @@
 
     <header class="header">
       <div class="container" id="container">
-        <div class="tiny_title">
+        <div class="tiny_title" id="tiny_title">
           <?= $page->tiny_title() ?>
         </div>
 
-        <a href="javascript:void(0);" class="mobile_nav" onclick="myFunction()">MENU</a>
+          <a href="javascript:void(0);" class="mobile_nav" onclick="myFunction()">MENU</a>
+
 
         <nav  class="topnav" id="myTopnav">
           <ul >
-            <li><a href="<?= $site->url() ?>">Home</a></li>
+            <!-- <li><a href="<?= $site->url() ?>">Home</a></li> -->
             <?php foreach ($site->children()->listed() as $item): ?>
               <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
             <?php endforeach ?>
