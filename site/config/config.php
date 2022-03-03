@@ -1,6 +1,10 @@
 <?php
+
 return [
-    'debug'  => true
+    'debug' => true,
+    'panel' =>[
+      'install' => true
+    ]
 ];
 
 return [
@@ -28,12 +32,6 @@ return [
         ]
       ]
     ]
-  ]
-];
-
-return [
-  'panel' =>[
-    'install' => true
   ]
 ];
  ?>

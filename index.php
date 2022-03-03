@@ -16,4 +16,4 @@ Kirby::plugin('your-project/faq-block', [
         'blocks/faq'      => __DIR__ . '/snippets/blocks/faq.php',
         'blocks/faqItem'  => __DIR__ . '/snippets/blocks/faqItem.php'
     ]
-]);
+]); ?>

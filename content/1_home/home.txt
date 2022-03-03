@@ -32,7 +32,7 @@ Cover:
 
 ----
 
-Caption: hallo
+Caption: bildunterschrift
 
 ----
 
