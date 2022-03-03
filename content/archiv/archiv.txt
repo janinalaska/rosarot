@@ -1,1 +1,9 @@
 Title: Archiv
+
+----
+
+Issues: [{"content":{"image":["rr_47.jpg"],"issue":"","link":"https:\/\/www.e-periodica.ch\/digbib\/view?pid=ros-002%3A2014%3A0"},"id":"abfed8ff-7223-46d6-9068-c33a047d33c2","isHidden":false,"type":"image"},{"content":{"image":["rr_48.jpg"],"issue":"","link":"irgendeinlink"},"id":"a1074bc1-f30a-4d13-94ec-c6f73ea0eeba","isHidden":false,"type":"image"}]
+
+----
+
+Blocks: [{"content":{"image":["rr_47.jpg"],"issue":"","link":"https:\/\/www.e-periodica.ch\/digbib\/view?pid=ros-002%3A2014%3A0"},"id":"a3a7c14a-dcf6-4756-bcfa-845dfb88cac1","isHidden":false,"type":"image"},{"content":{"image":[],"issue":"","link":""},"id":"0dd39486-649d-4b73-b14d-0c7d972c5c85","isHidden":false,"type":"image"}]

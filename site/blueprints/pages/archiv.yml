@@ -1,6 +1,9 @@
 fields:
   issues:
     type: blocks
+    fieldsets:
+      - image
+
 
 options:
   read:

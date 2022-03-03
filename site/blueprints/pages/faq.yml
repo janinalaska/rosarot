@@ -3,11 +3,3 @@ fields:
   text:
     # label: Help
     type: textarea
-
-
-
-  blocks:
-    type: blocks
-    fieldsets:
-      - heading
-      - text

@@ -1,3 +1,8 @@
   sections:
     pages:
       type: pages
+
+options:
+  read:
+    admin: true
+    editor: false

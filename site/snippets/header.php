@@ -7,7 +7,9 @@
     <?= css('assets/css/index.css') ?>
     <?= css('@auto') ?>
     <?= css('assets/css/mobile.css') ?>
-      <?= js('assets/js/script.js') ?>
+    <?= js('assets/js/script.js') ?>
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+    <link rel="icon" href="assets/icons/f8.svg" type="image/svg+xml">
   </head>
   <body>
 

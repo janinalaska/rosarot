@@ -1,0 +1,23 @@
+name: field.blocks.image.name
+icon: image
+preview: image
+fields:
+  image:
+    label: field.blocks.image.name
+    type: files
+    multiple: false
+    image:
+      back: black
+    uploads:
+      template: blocks/image
+
+  issue:
+    label: Titel der Ausgabe
+    type: text
+    icon: text
+    inline: true
+  link:
+    label: field.blocks.image.link
+    help: Link zur Ausgabe auf E-Periodica
+    type: text
+    icon: url

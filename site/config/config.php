@@ -30,4 +30,10 @@ return [
     ]
   ]
 ];
+
+return [
+  'panel' =>[
+    'install' => true
+  ]
+];
  ?>

@@ -6,14 +6,23 @@ mobile:
 
 
 // - einzelheftbestellung
-- adressänderung
+// - adressänderung
 - vernissage startseite
 - zusätzliche breakpoints
-- verkaufsstellen
-- contact form design
+// - verkaufsstellen
+// - contact form design
 - archiv seite
 - schriftart kommentarfeld
 // - kontakt + social media auf "über uns"
+// - home button verschoben bei abo/verkauf
+- abo/verkauf bild einfügen
+- verkaufsstellen bild einfügen
+- social media icons über uns, telegram
+- social media icons, oben über adresse
+- über uns: logos nicht drinnen
+- faq: 2x klicken bis einklappt
+- über uns: werde unterstützerin
+- über uns: liste unterstützerinnen
 
 
 

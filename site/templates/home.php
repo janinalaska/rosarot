@@ -16,14 +16,12 @@
 <a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
 <?php endif; ?>
 
-
-
         </div>
       <?php endforeach ?>
     </div>
 
+
     <div class="image_right">
-      <!-- <?php $img = $page->children()->listed()->filterBy('template', 'bild_beitrag') ?> -->
       <?php foreach ($page->children()->listed()->filterBy('template', 'bild_beitrag') as $img_content): ?>
 
       <a href="<?= $img_content->url() ?>" class="img_link">
@@ -33,6 +31,8 @@
       <?php endforeach ?>
     </div>
   </div>
+
+  <!-- vernissage -->
 
 <?php else: ?>
   <div class="wrapper vernissage">
@@ -46,7 +46,7 @@
     <div class="image_right">
       <?php $img = $page->cover()->toFile();?>
 
-      <a href="<?= $img->url() ?>">
+      <a href="<?= $img->url() ?>" class="img_link">
       <img src="<?= $img->url()  ?>" alt="">
       </a>
       <figcaption><?= $page->caption() ?></figcaption>

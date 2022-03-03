@@ -20,10 +20,10 @@
   width: 25em;
 }
 
-li {
+.getit li {
   padding-top: 2em;
 }
 
-li:first-child {
+.getit li:first-child {
   padding: 0;
 }

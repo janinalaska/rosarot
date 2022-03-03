@@ -86,6 +86,22 @@
     height: auto;
   }
 
+  .wrapper.vernissage {
+    flex-direction: column;
+  }
+
+  .vernissage .text_left {
+    /* background: pink; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* width: 35em; */
+  }
+
+  .vernissage .image_right {
+    display: none;
+    visibility: hidden;
+  }
+
   .text_left {
     width: 100%;
     padding-top: 3em;

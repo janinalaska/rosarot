@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Posttype: Beiträge
+Posttype: Vernissage
 
 ----
 
@@ -28,7 +28,7 @@ Die Veranstaltung findet draussen statt. Es gilt eine generelle Maskenpflicht. V
 
 Cover:
 
-- vernissage_klein.jpg
+- vernissage_n.jpg
 
 ----
 
