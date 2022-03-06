@@ -70,9 +70,9 @@
     padding-top: 1em;
   }
 
-  .topnav.responsive li:first-child {
+  /* .topnav.responsive li:first-child {
     padding-top: 0;
-  }
+  } */
 
   .mobile_nav {
     /* background: pink; */
