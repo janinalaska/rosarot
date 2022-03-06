@@ -21,6 +21,12 @@ padding-bottom: 31px; */
   padding-left: var(--out_marg);
   width: auto;
   height : 100%;
+}
+
+.img_wrapper img {
+  padding-left: var(--out_marg);
+  width: auto;
+  height : 100%;
   /* object-fit: cover; */
 }
 

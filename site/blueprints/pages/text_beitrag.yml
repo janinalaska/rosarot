@@ -4,10 +4,10 @@ fields:
     label: Kleiner Titel
     type: text
   info:
-    label: Textinfo
+    label: Lead
     type: textarea
   text:
     type: textarea
   author:
-    label: "Autorin*"
+    label: "Autor*in"
     type: textarea

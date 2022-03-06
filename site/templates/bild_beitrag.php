@@ -8,7 +8,10 @@ irgendwas
       <div class="gallery_container">
 
           <?php foreach ($page->images() as $image): ?>
-              <img src="<?= $image->url() ?>" alt="">
+            <!-- <div class="img_wrapper"> -->
+              <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+              <figcaption><?= $image->caption() ?></figcaption>
+            <!-- </div> -->
           <?php endforeach ?>
 
           <div class="author"><p><?= $page->author()->text() ?></p></div>
@@ -18,7 +21,8 @@ irgendwas
       <div class="mobile_gallery">
         <div class="img_wrapper">
           <?php foreach ($page->images() as $image): ?>
-              <img src="<?= $image->url() ?>" alt="">
+              <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+              <figcaption><?= $image->caption() ?></figcaption>
           <?php endforeach ?>
         </div>
 

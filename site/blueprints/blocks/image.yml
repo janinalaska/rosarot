@@ -10,6 +10,15 @@ fields:
       back: black
     uploads:
       template: blocks/image
+  alt:
+    label: field.blocks.image.alt
+    type: text
+    icon: title
+  caption:
+    label: field.blocks.image.caption
+    type: writer
+    icon: text
+    inline: true
 
   issue:
     label: Titel der Ausgabe

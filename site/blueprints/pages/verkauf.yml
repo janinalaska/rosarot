@@ -1,0 +1,4 @@
+  sections:
+    cover:
+      label: Coverbild
+      type: files

@@ -75,6 +75,10 @@
     font-weight: 700;
   }
 
+  a.mobile_nav {
+    font-style: normal;
+  }
+
   .container.responsive {
     background: var(--bgColor);
     height: 100vh;
@@ -122,6 +126,10 @@
     height: 100%;
     object-fit: cover;
     border-radius: 0;
+  }
+
+  .image_right.verkauf {
+    display: none;
   }
 
   .mobile_gallery {

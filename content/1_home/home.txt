@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Posttype: Vernissage
+Posttype: Beiträge
 
 ----
 

@@ -6,5 +6,5 @@ fields:
     label: Bild Beitrag
     type: files
   author:
-    label: "Autorin*"
+    label: "Autor*in"
     type: textarea

@@ -23,7 +23,17 @@ mobile:
 - faq: 2x klicken bis einklappt
 - über uns: werde unterstützerin
 - über uns: liste unterstützerinnen
-
+- neuer textbeitrag: template auswahl ausblenden
+- textinfo: zu lead umbenamseln
+- link bei author wird nicht richtig angezeigt
+- text sections: files upload deaktivieren?
+- horizontal scroll bildbeitrag?
+- bild beitrag captions
+- bild uploads alt text feld
+- faq: + wieder hinzufügen und zu
+- abo bestellung zahlungs infos
+- archiv für beiträge
+- links (im text) in neuer seite öffnen
 
 
 kommentare:

@@ -1,6 +1,9 @@
   sections:
     pages:
       type: pages
+    cover:
+      label: Coverbild
+      type: files
 
 options:
   read:
