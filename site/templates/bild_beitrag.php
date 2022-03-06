@@ -6,15 +6,14 @@ irgendwas
 
     <!-- <main> -->
       <div class="gallery_container">
-
           <?php foreach ($page->images() as $image): ?>
-            <!-- <div class="img_wrapper"> -->
-              <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+            <div class="image_container">
+              <div class="img">
+                <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+              </div>
               <figcaption><?= $image->caption() ?></figcaption>
-            <!-- </div> -->
+            </div>
           <?php endforeach ?>
-
-          <div class="author"><p><?= $page->author()->text() ?></p></div>
       </div>
 
 

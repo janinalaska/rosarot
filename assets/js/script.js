@@ -1,7 +1,7 @@
 var bgColor = new Array();
 bgColor[0] = "#AEF27E";
 bgColor[1] = "#C18DD9";
-bgColor[2] = "#5C9F61";
+bgColor[2] = "#688B69";
 bgColor[3] = "#F8FB60";
 bgColor[4] = "#FFA176";
 bgColor[5] = "#FFCBE9";
@@ -16,10 +16,11 @@ bgColor[12] = "#D8BAFF";
 
 
 
+
 var color = new Array();
 color[0] = "#024FBA";
 color[1] = "#42EDB7";
-color[2] = "#F8B1DA";
+color[2] = "#BEE97F";
 color[3] = "#A77CC6";
 color[4] = "#9F3402";
 color[5] = "#FF0000";
@@ -32,9 +33,10 @@ color[11] = "#FEFCDB";
 color[12] = "#5E1CB2";
 
 
+
 var r = document.querySelector(':root');
 // var svgElement = document.getElementById('svglogo');
-var s = 6;
+var s = 13;
 
 // function myFunction_set() {
 //   r.style.setProperty('--blue', 'lightblue');
@@ -91,15 +93,15 @@ var width = window.innerWidth
 // i.style.paddingTop = headerheight + "px";
 
 if (gal !== null) {
-  gal.style.paddingTop = headerheight+0+"px";
-  gal.style.paddingBottom = footerheight+15+"px";
+  gal.style.marginTop = headerheight+0+"px";
+  gal.style.marginBottom = footerheight+15+"px";
   console.log(headerheight);
 } else if (i !== null) {
   i.style.paddingTop = headerheight+0+"px";
   console.log(headerheight);
 }
 
-if (width < 900) {
+if (m !== null) {
   m.style.marginTop = headerheight+"px";
   console.log(headerheight);
   console.log("small");

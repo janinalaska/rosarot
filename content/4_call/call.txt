@@ -15,7 +15,7 @@ Process:
 Mit dem Call for Paper werden die Heftbeiträge halbjährlich über verschiedene Kanäle gesammelt ((link: /about text: Postweg), (email: rosarotinfo@gmail.com text: Mail), (link: beispiel.de text: Facebook), (link: https://www.instagram.com/rosa_rot_zeitschrift/ text: Instagram), (link: https://t.me/rosa_rot_zeitschrift text: Telegramchat), die Links dazu findest du weiter unten, Frage an Janina, kann man die Links direkt mit den Titel verlinken?). Jedes Heft hat ein spezifisches Thema, dem wir uns aus verschiedenen Perspektiven und durch verschiedene Mittel (Text, Bild, Audio) gemeinsam annähern. So suchen wir deine Geschichte, Fotografie, Analyse und Kunst. Wir fragen nach deinem Comic, Cover, Rätsel, Song, Gedicht und mehr. Wir suchen deinen Beitrag, der sich aus einer feministischen Perspektive unserem aktuellen Heftthema annimmt.
 Schick uns deinen Beitrag am besten per mail: (email: rosarotinfo@gmail.com text: rosarotinfo@gmail.com)
 
-Falls du Unterstützung benötigst, beispielsweise beim Verfassen eines Textes, kannst du uns anschreiben. Zudem findest du in unserem Leitfaden (kommt bald) nützliche Hinweise, wie du gendergerecht schreibst oder wie hoch die minimale Auflösung eines Bildes sein sollte. 
+Falls du Unterstützung benötigst, beispielsweise beim Verfassen eines Textes, kannst du uns anschreiben. Zudem findest du in unserem Leitfaden (kommt bald) nützliche Hinweise, wie du gendergerecht schreibst oder wie hoch die minimale Auflösung eines Bildes sein sollte.
 
 Die Redaktion erarbeitet nach Einsendeschluss eine zum Thema und zu den Grundsätzen der RosaRot passende Ausgabe. Wir wählen aus, was wir im nächsten Heft abdrucken möchten. Du wirst im Dialog mit einer für deinen Beitrag verantwortlichen Person aus der Redaktion an diesem arbeiten. Das heisst, du wirst nach einer Zusage deines Beitrages im Be-/Überarbeitungsprozess (Lektorat, Korrektorat) dabei sein. Wir melden uns mit unseren Anmerkungen bei dir zurück, so dass du während zwei bis drei Wochen Zeit hast, die Änderungen und Ergänzungen in deinen Beitrag einzuarbeiten. Dabei sind wir als Redaktion sehr bemüht darum, alle Beiträge, die unserer politischen Position entsprechen, in der Zeitschrift zu publizieren.
 Zurück bei uns, geht der Beitrag ins Korrektorat, um das Heft für den Druck bereit zu stellen. Währenddessen heisst es für dich warten, warten, warten – bis das Heft dann in deinem Briefkasten steckt und wir bei der Vernissage darauf anstossen können!
@@ -28,4 +28,4 @@ List: <ul><li>kollektiv, Kollektiv, KOLLEKTIV - kollketiv handeln, sein, machen<
 
 ----
 
-Tiny-title: Call für die neue Ausgabe der RosaRot
+Tiny-title: Call für die nächste Ausgabe

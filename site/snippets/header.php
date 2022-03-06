@@ -15,11 +15,14 @@
 
     <header class="header">
       <div class="container" id="container">
-        <div class="tiny_title" id="tiny_title">
-          <?= $page->tiny_title() ?>
-        </div>
+        <div class="inner_container">
+          <div class="tiny_title" id="tiny_title">
+            <?= $page->tiny_title() ?>
+          </div>
 
-          <a href="javascript:void(0);" class="mobile_nav" onclick="myFunction()">MENU</a>
+            <a href="javascript:void(0);" class="mobile_nav" onclick="myFunction()">MENU</a>
+
+        </div>
 
 
         <nav  class="topnav" id="myTopnav">

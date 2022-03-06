@@ -35,6 +35,25 @@ mobile:
 - archiv für beiträge
 - links (im text) in neuer seite öffnen
 
+- topnav a: links cursiv oder normal?
+- bildbeitrag mobile: gradient entfernen
+
+
+
+gallery_container:
+
+<?php foreach ($page->images() as $image): ?>
+  <div class="img_title">
+    <div class="img_container">
+      <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+    </div>
+    <figcaption><?= $image->caption() ?></figcaption>
+  </div>
+<?php endforeach ?>
+
+<div class="author"><p><?= $page->author()->text() ?></p></div>
+
+
 
 kommentare:
 - hab dropdown bei heftbestellung weggelassen, da sonst bei jeder ausgabe daran gedacht werden muss dies hier nachzutragen

@@ -25,9 +25,9 @@
       <?php foreach ($page->children()->listed()->filterBy('template', 'bild_beitrag') as $img_content): ?>
 
       <a href="<?= $img_content->url() ?>" class="img_link">
-      <img src="<?= $img_content->images()->first()->url()  ?>" alt="">
+      <img src="<?= $img_content->images()->first()->url()  ?>" alt="<?= $img_content->images()->first()->alt()?>">
       </a>
-      <figcaption><?= $img_content->tiny_title() ?></figcaption>
+      <figcaption><?= $img_content->images()->first()->caption()?></figcaption>
       <?php endforeach ?>
     </div>
   </div>
