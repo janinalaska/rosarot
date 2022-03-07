@@ -39,6 +39,14 @@ mobile:
 - bildbeitrag mobile: gradient entfernen
 
 
+- bildbeitrag reihenfolge ändern
+- sorting of images
+- scroll kaputt verkaufsstellen
+- fix bild bei verkaufsstellen + abo
+- kursiv markdown und *
+
+
+
 
 gallery_container:
 

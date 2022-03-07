@@ -8,6 +8,8 @@
 
 Neue Adresse:
 
+<?= $nfname ?> <?= $nname ?>
+
 <?= $nstreet ?> <?= $nnr ?>
 
 <?= $nplz ?> <?= $ncity ?>

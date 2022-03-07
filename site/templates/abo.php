@@ -18,8 +18,8 @@
             <div class="ckb">
             <input type="radio" name="type[]" id="op1" value="CH Abo" <?= isset($data['type']) && in_array('CH Abo', $data['type']) ? 'checked' : '' ?>>
             <label for="op1">Abo Schweiz 20 CHf</label><br>
-            <input type="radio" name="type[]" id="op2" value="Gön*nerinnneabo"  <?= isset($data['type']) && in_array('Gön*nerinnenabo', $data['type']) ? 'checked' : '' ?>>
-            <label for="op2">Gön*nerinnneabo 50 CHf</label><br>
+            <input type="radio" name="type[]" id="op2" value="Gön*nerinnenabo"  <?= isset($data['type']) && in_array('Gön*nerinnenabo', $data['type']) ? 'checked' : '' ?>>
+            <label for="op2">Gön*nerinnenabo 50 CHf</label><br>
             <input type="radio" name="type[]" id="op3" value="Supergönner*innen"  <?= isset($data['type']) && in_array('Supergönner*innen', $data['type']) ? 'checked' : '' ?>>
             <label for="op3">Supergönner*innen 100 CHf</label><br>
             <input type="radio" name="type[]" id="op4" value="Auslandsabo"  <?= isset($data['type']) && in_array('Auslandsabo', $data['type']) ? 'checked' : '' ?>>

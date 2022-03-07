@@ -16,14 +16,14 @@
             </div>
 
 <div class="info">
-  <p>Teile uns doch bitte zuerst Deine bisherige Adresse mit:</p>
+  <p>Teile uns doch bitte zuerst deine bisherigen Kontaktdaten mit:</p>
 </div>
 <!-- adresse -->
 <?php snippet('contact_info') ?>
 
 
 <div class="info new">
-  <p>Und jetzt Deine neue Adresse:</p>
+  <p>Und jetzt deine neuen Kontaktdaten:</p>
 </div>
 
 <?php snippet('new_info') ?>

@@ -1,6 +1,6 @@
 fields:
   tiny_title:
-    label: Bildunterschrift
+    label: Kleiner Titel
     type: text
   bild_beitrag:
     label: Bild Beitrag

@@ -1,6 +1,6 @@
 var bgColor = new Array();
-bgColor[0] = "#AEF27E";
-bgColor[1] = "#C18DD9";
+bgColor[0] = "#C7FF9F";
+bgColor[1] = "#99C5E4";
 bgColor[2] = "#688B69";
 bgColor[3] = "#F8FB60";
 bgColor[4] = "#FFA176";
@@ -19,7 +19,7 @@ bgColor[12] = "#D8BAFF";
 
 var color = new Array();
 color[0] = "#024FBA";
-color[1] = "#42EDB7";
+color[1] = "#EE5C6E";
 color[2] = "#BEE97F";
 color[3] = "#A77CC6";
 color[4] = "#9F3402";
@@ -36,7 +36,7 @@ color[12] = "#5E1CB2";
 
 var r = document.querySelector(':root');
 // var svgElement = document.getElementById('svglogo');
-var s = 13;
+var s = 1;
 
 // function myFunction_set() {
 //   r.style.setProperty('--blue', 'lightblue');
@@ -150,16 +150,20 @@ if (m !== null) {
 function myFunction() {
   var x = document.getElementById("myTopnav");
   var c = document.getElementById("container");
+  var i = document.getElementById("inner_container");
   var a = document.getElementsByClassName("mobile_nav")[0];
   var t = document.getElementById("tiny_title");
   if (x.className === "topnav") {
     x.className += " responsive";
     c.className += " responsive";
-    // t.style.display = "none";
+    i.className += " responsive";
+    t.style.display = "none";
     a.innerHTML="CLOSE";
   } else {
     x.className = "topnav";
     c.className = "container";
+    i.classList.remove("responsive");
+    t.style.display = "block";
     a.innerHTML="MENU";
   }
 }

@@ -149,3 +149,9 @@ padding-bottom: 31px; */
   width: 35em;
   padding: 0;
 }
+
+@media (max-width: 900px) {
+  .footer.ohne {
+    background-image: linear-gradient(var(--bgColA), var(--bgColor) 75%);
+  }
+}

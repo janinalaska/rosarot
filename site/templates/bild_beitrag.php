@@ -6,7 +6,7 @@ irgendwas
 
     <!-- <main> -->
       <div class="gallery_container">
-          <?php foreach ($page->images() as $image): ?>
+          <?php foreach ($page->images()->sortBy('sort') as $image): ?>
             <div class="image_container">
               <div class="img">
                 <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">

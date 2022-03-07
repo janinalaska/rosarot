@@ -15,7 +15,7 @@
 
     <header class="header">
       <div class="container" id="container">
-        <div class="inner_container">
+        <div class="inner_container" id="inner_container">
           <div class="tiny_title" id="tiny_title">
             <?= $page->tiny_title() ?>
           </div>

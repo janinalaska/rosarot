@@ -6,3 +6,7 @@ Info: Abo in der Schweiz: 20 CHF<br>
       Gön*nerinnenabo: 50 CHF<br>
       Supergönner*innenabo: 100 CHF<br>
       Auslandabo: 25 €
+
+----
+
+tiny_title: Abo bestellen

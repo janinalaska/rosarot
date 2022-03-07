@@ -1,5 +1,22 @@
 <div class="two">
   <div class="field left">
+    <label for="nfname">
+        Vorname <abbr title="required">*</abbr>
+    </label>
+    <input type="text" id="nfname" name="nfname" value="<?= esc($data['nfname'] ?? '', 'attr') ?>" required>
+    <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
+  </div>
+  <div class="field">
+    <label for="nname">
+        Name <abbr title="required">*</abbr>
+    </label>
+    <input type="text" id="nname" name="nname" value="<?= esc($data['nname'] ?? '', 'attr') ?>" required>
+    <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
+  </div>
+</div>
+
+<div class="two">
+  <div class="field left">
       <label for="nstreet">
           Strasse <abbr title="required">*</abbr>
       </label>

@@ -6,14 +6,14 @@
   <div class="wrapper verkauf">
     <div class="text_left">
       <div class="zurich">
-        <h6>Zurich</h6>
+        <h6>Zürich</h6>
         <div class="shop first">
           <h3><a href="https://paranoiacity.ch/" target="_blank">Paranoia City</a></h3>
           Ankerstrasse 12<br>
           8004 Zürich
         </div>
         <div class="shop">
-          <h3><a href="https://www.volkshausbuch.ch/de/" target="_blank">Buchhandlung im Volkshaus</a></h3>
+          <h3><a href="https://www.volkshausbuch.ch/" target="_blank">Buchhandlung im Volkshaus</a></h3>
           Stauffacherstrasse 60<br>
           8004 Zürich
         </div>

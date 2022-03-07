@@ -2,4 +2,8 @@ Title: Verkaufsstellen
 
 ----
 
-Info: Finde eine RosaRot Verkaufsstelle in deiner Nähe!
+Info: Finde eine RosaRot-Verkaufsstelle in deiner Nähe
+
+----
+
+Tiny-title: RosaRot-Verkaufsstellen

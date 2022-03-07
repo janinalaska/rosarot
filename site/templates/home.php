@@ -10,10 +10,10 @@
           <h3 class="m_title"><?= $content->title()?></h3>
           <?php if($content->info()->isNotEmpty()) : ?>
 <p><?= $content->info()->text() ?></p>
-<a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
+<a href="<?= $content->url() ?>" class="readmore">weiterlesen</a>
 <?php else : ?>
 <p><?=$content->text()->markdown()->excerpt(850, true, '...');?></p>
-<a href="<?= $content->url() ?>" class="readmore">Weiterlesen</a>
+<a href="<?= $content->url() ?>" class="readmore">weiterlesen</a>
 <?php endif; ?>
 
         </div>
@@ -27,7 +27,7 @@
       <a href="<?= $img_content->url() ?>" class="img_link">
       <img src="<?= $img_content->images()->first()->url()  ?>" alt="<?= $img_content->images()->first()->alt()?>">
       </a>
-      <figcaption><?= $img_content->images()->first()->caption()?></figcaption>
+      <figcaption><?= $img_content->title()?></figcaption>
       <?php endforeach ?>
     </div>
   </div>

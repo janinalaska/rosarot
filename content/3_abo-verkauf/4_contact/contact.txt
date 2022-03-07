@@ -2,4 +2,8 @@ Title: Adressänderung
 
 ----
 
-Info: Hier kannst du Deine Anschrift anpassen
+Info: Hier kannst du deine Anschrift anpassen
+
+----
+
+tiny_title: Kontaktdaten anpassen

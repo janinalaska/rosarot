@@ -53,7 +53,7 @@ return function($kirby, $pages, $page) {
                     'template' => 'abo_bestellung.html',
                     'from'     => $data['email'],
                     'replyTo'  => $data['email'],
-                    'to'       => 'janina.tanner@posteo.ch',
+                    'to'       => 'rosarotinfo@gmail.com',
                     'subject'  => esc($data['firstname']) . ' möchte ein neues Abo abschliessen',
                     'data'     => [
                         'type'   => $data['type'],
@@ -85,7 +85,7 @@ return function($kirby, $pages, $page) {
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                $success = 'Wir freuen uns, das Heft bald zu verschicken. Beim Versand des ersten Heftes wirst du die Rechnung für das Abo erhalten. Herzlichen Dank für dein Interesse an der RosaRot.';
                 $data = [];
             }
         }

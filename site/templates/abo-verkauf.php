@@ -18,7 +18,6 @@
             </ul>
           </div>
         </div>
-
         <div class="image_right verkauf">
           <?php foreach ($page->images() as $image): ?>
             <a href="<?= $image->url() ?>" class="img_link">
@@ -27,7 +26,9 @@
             <figcaption><?= $image->caption() ?></figcaption>
           <?php endforeach ?>
         </div>
+
       </div>
+
     </main>
 
 <?php snippet('footer_ohne') ?>

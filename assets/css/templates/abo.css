@@ -1,0 +1,5 @@
+@media (max-width: 900px) {
+  .footer.ohne {
+    background-image: linear-gradient(var(--bgColA), var(--bgColor) 75%);
+  }
+}

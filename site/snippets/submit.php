@@ -10,4 +10,4 @@
 
 
 <!-- submit button -->
-<input class="submit" type="submit" name="submit" value="Abschicken">
+<input class="submit" type="submit" name="submit" value="abschicken">

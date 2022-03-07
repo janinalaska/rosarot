@@ -46,7 +46,7 @@ return function($kirby, $pages, $page) {
                     'template' => 'heft_bestellung.html',
                     'from'     => $data['email'],
                     'replyTo'  => $data['email'],
-                    'to'       => 'janina.tanner@posteo.ch',
+                    'to'       => 'rosarotinfo@gmail.com',
                     'subject'  => esc($data['firstname']) . ' möchte eine alte RosaRot Ausgabe bestellen',
                     'data'     => [
                       'issue'  => esc($data['issue']),
@@ -71,7 +71,7 @@ return function($kirby, $pages, $page) {
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                $success = 'Wir freuen uns, das Heft bald zu verschicken. Beim Versand wirst du die Rechnung für das Heft erhalten. Herzlichen Dank für dein Interesse an der RosaRot.';
                 $data = [];
             }
         }

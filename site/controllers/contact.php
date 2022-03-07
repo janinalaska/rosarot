@@ -19,6 +19,8 @@ return function($kirby, $pages, $page) {
             'nr'    => get('nr'),
             'plz'   => get('plz'),
             'city'  => get('city'),
+            'nfname' => get('nfname'),
+            'nname' => get('nname'),
             'nstreet' => get('nstreet'),
             'nnr'   => get('nnr'),
             'nplz'  => get('nplz'),
@@ -49,7 +51,7 @@ return function($kirby, $pages, $page) {
                     'template' => 'kontakt.html',
                     'from'     => $data['email'],
                     'replyTo'  => $data['email'],
-                    'to'       => 'janina.tanner@posteo.ch',
+                    'to'       => 'rosarotinfo@gmail.com',
                     'subject'  => esc($data['firstname']) . ' hat eine neue Adresse',
                     'data'     => [
                       'lname'  => esc($data['name']),
@@ -59,6 +61,8 @@ return function($kirby, $pages, $page) {
                       'plz'  => esc($data['plz']),
                       'city'  => esc($data['city']),
                       'email' => $data['email'],
+                      'nfname' => esc($data['nfname']),
+                      'nname' => esc($data['nname']),
                       'nstreet'  => esc($data['nstreet']),
                       'nnr'  => esc($data['nnr']),
                       'nplz'  => esc($data['nplz']),
@@ -77,7 +81,7 @@ return function($kirby, $pages, $page) {
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                $success = 'Vielen Dank für die Information.';
                 $data = [];
             }
         }

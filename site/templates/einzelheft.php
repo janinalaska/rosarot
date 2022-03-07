@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
-    <main class="main">
-        <h3><?= $page->title()->html() ?></h3>
+    <main class="noimg">
 
         <?php if($success): ?>
         <div class="alert success">
@@ -18,7 +17,7 @@
 
 
             <div class="field">
-              <label for="issue">Bitte teile uns Nummer und Titel der Ausgabe mit, die Du gerne nachbestellen möchtest.</label>
+              <label for="issue">Bitte teile uns Nummer und Titel der Ausgabe mit, die du gerne nachbestellen möchtest.<abbr title="required">*</abbr></label>
               <input type="text" name="issue" value="">
             </div>
 
